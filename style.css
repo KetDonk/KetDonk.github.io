@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Mono:wght@500&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+
+
+html,body {
+    background-color: #36393f;
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),url("/Boris.jpg");
+    background-position: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+}
+
+.github-img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #252526;
+}
+
+.link-item:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.link-item:hover a{
+    color: white;
+    transition: 1s;
+}
+
+.center-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-item{
+    border-bottom: solid white 3px;
+}
+
+.link-item{
+    color: #323233;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 60px;
+    }
+  }
