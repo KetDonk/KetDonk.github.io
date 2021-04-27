@@ -5,7 +5,7 @@
 
 html,body {
     background-color: #36393f;
-    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),url("/Boris.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),url("/res/Boris.jpg");
     background-position: center;
     margin: 0;
     font-weight: 400;
@@ -58,3 +58,4 @@ a {
         font-size: 60px;
     }
   }
+
