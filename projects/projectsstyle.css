@@ -24,6 +24,11 @@ body {
     font-size: 30px;
 }
 
+.archived{
+    background-color: rgb(83, 83, 187);
+    border: 2px solid rgb(83, 83, 187);
+}
+
 .card:hover {
     cursor: pointer;
     transition: 0.3s;
