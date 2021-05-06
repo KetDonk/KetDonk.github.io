@@ -29,6 +29,11 @@ body {
     border: 2px solid rgb(83, 83, 187);
 }
 
+.private{
+    background-color: rgb(255, 69, 0);
+    border: 2px solid rgb(255, 69, 0);
+}
+
 .card:hover {
     cursor: pointer;
     transition: 0.3s;
