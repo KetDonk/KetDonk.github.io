@@ -12,9 +12,11 @@
 
 html,
 body {
+    
     overflow: overlay;
+    overflow-x: hidden;
     background-color: #36393f;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("/res/Boris.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../res/Boris.jpg");
     background-position: center;
     text-align: center;
     margin: 0;
