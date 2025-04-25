@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class JSToBrainfuck {
     constructor() {
         this.memory = new Array(30000).fill(0);
@@ -88,7 +87,7 @@ console.log(42);
 
 const brainfuckCode = translator.convert(jsCode);
 console.log('Generated Brainfuck code:');
-=======
+
 class JSToBrainfuck {
     constructor() {
         this.memory = new Array(30000).fill(0);
@@ -178,5 +177,4 @@ console.log(42);
 
 const brainfuckCode = translator.convert(jsCode);
 console.log('Generated Brainfuck code:');
->>>>>>> 2df318b932a8594adf601eec80017909e0a351fc
 console.log(brainfuckCode); 
